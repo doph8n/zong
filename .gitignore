@@ -1,0 +1,31 @@
+# Zig build artifacts
+zig-out/
+zig-cache/
+.zig-cache/
+
+# Dependency directories
+.deps/
+
+# Binary files
+*.o
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Editor and OS specific files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+.*.sw?
+
+# Other common patterns
+*.log
+*.bak

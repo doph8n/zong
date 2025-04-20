@@ -21,7 +21,7 @@ pub fn build(b: *std.Build) void {
     const raylib_artifact = raylib_dep.artifact("raylib"); // raylib C library
 
     const exe = b.addExecutable(.{
-        .name = "zingzong",
+        .name = "zong",
         .root_module = exe_mod,
     });
 
